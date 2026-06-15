@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            display: flex;
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            margin-bottom: 10px;
+            margin-top: 0%;
+            justify-content: center;
+            padding: 0%;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: blue;
+            font-size: 22px;
+            font-weight: bold;
+            float: right;
+            
+        }
+        .form-box{
+            width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .box-form h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-box label{
+            font-size: 20px;
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+
+        }
+        .form-box input[type=text],
+        .form-box input[type=email],
+        .form-box input[type=password]{
+            width:90%;
+            padding:5px;
+            margin-top:1px;
+            font-size:18px;
+        }
+
+        .form-box button{
+            padding:33px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            width: 760px;
+
+        }
+
+        .form-box button{
+            background: green;
+            color: white;
+        }
+        
+        h1{
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    border-radius: 10px;
+
+
+}
+.team-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 55px;
+    color: #333;
+}
+        
+    </style>
+</head>
+<body>
+    <header><h1>Welcome To Jamhuriya</h1></header>
+    <div class="container">
+        <header><h1></h1></header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./registration.html">registration</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./team.html">Our Team</a></li>
+            </ul>
+        </nav>
+        <h2 class="team-title">Registration</h2>
+        <div class="form-box">
+    <form action="" method=""></form>
+    <fieldset><legend><h2>submit regestration student:</h2></legend>
+    <p>
+    <label for="first name">first name:</label>
+    <br>
+    <input type="text" name="midle name" id="first name" placeholder="enter your first name"></p>
+     <p>
+    <label for="midle name">midle name:</label>
+    <br>
+    <input type="text" name="last name" id="midle name" placeholder="enter your midle name"></p>
+     <p>
+    <label for="last name">last name:</label>
+    <br>
+    <input type="text" name="last name" id="last name" placeholder="enter your last name"></p>
+    <p>
+        <label for="email"><b>Email:</b></label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="enter your email">
+
+    </p>
+     <p>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="email" id="password" placeholder="enter your password">
+    </p> <p>
+        <label for="phone"><b>Phone:</b></label>
+        <br>
+        <input type="phone" name="phone" id="phone" placeholder="enter your phone">
+    </p>
+
+
+    <label for="">Gender</label>
+    <input type="radio" name="gender" id="">Male
+    <input type="radio" name="gender" id="">Female
+<br><br>
+
+
+    
+    <label for="">your favorate cources</label>
+    <input type="checkbox">HTML <br>
+    <input type="checkbox">CSS <br>
+    <input type="checkbox">JavaScript >
+        <br><br>
+
+    <button> Save Data</button>
+    
+
+        </fieldset>
+        </div>
+    </div>
+</body>
+</html>
